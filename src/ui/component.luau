@@ -13,7 +13,7 @@ return function()
 			Size = UDim2.fromScale(1, 1),
 			TextScaled = true,
 			Activated = function()
-				vide_state.counter(vide_state.counter() + 2)
+				vide_state.counter(vide_state.counter() + 20000)
 			end,
 		},
 	}
