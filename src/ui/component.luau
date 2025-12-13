@@ -10,10 +10,10 @@ return function()
 		Position = UDim2.fromScale(0.5, 0.9),
 		create "TextButton" {
 			Text = `{vide_state.counter()}`,
-			Size = UDim2.fromScale(1, 1),
+			Size = UDim2.fromScale(0.5, 0.5),
 			TextScaled = true,
 			Activated = function()
-				vide_state.counter(vide_state.counter() + 20000)
+				vide_state.counter(vide_state.counter() + 1)
 			end,
 		},
 	}
