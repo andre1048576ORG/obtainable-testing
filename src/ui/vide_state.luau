@@ -1,7 +1,7 @@
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local ReplicatedStorage = game:GetService "ReplicatedStorage"
 local vide = require(ReplicatedStorage.Packages.vide)
 local source = vide.source
 
 return {
-    counter = source(0),
+	counter = source(0),
 }

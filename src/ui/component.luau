@@ -5,16 +5,16 @@ local create = vide.create
 
 return function()
 	return create "Frame" {
-        Size = UDim2.fromScale(.5,.2),
-        AnchorPoint = Vector2.new(.5,1),
-        Position = UDim2.fromScale(.5,.9),
-        create "TextButton" {
-            Text = `{vide_state.counter()}`,
-            Size = UDim2.fromScale(1,1),
-            TextScaled = true,
-            Activated = function()
-                vide_state.counter(vide_state.counter()+2)
-            end,
-        }
-    }
+		Size = UDim2.fromScale(0.5, 0.2),
+		AnchorPoint = Vector2.new(0.5, 1),
+		Position = UDim2.fromScale(0.5, 0.9),
+		create "TextButton" {
+			Text = `{vide_state.counter()}`,
+			Size = UDim2.fromScale(1, 1),
+			TextScaled = true,
+			Activated = function()
+				vide_state.counter(vide_state.counter() + 2)
+			end,
+		},
+	}
 end
