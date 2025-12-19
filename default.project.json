@@ -15,8 +15,7 @@
       }
     },
     "Workspace": {
-        "$path": "src/workspace",
-        "$ignoreUnknownInstances": true
+        "$path": "src/workspace"
     },
 
     "ServerScriptService": {
