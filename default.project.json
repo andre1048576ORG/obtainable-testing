@@ -31,6 +31,12 @@
           "$path": "src/client"
         }
       }
+    },
+
+    "ServerStorage": {
+      "Stories": {
+        "$path": "src/stories"
+      }
     }
 
   }
